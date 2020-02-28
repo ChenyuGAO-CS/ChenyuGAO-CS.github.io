@@ -1,24 +1,36 @@
 ---
-layout: page
+layout: default
+title: Home
 ---
-{%- if site.posts.size > 0 -%}
-<ul class="posts">
-	{%- for post in site.posts -%}
-	<li>
-		{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-		<div class="post-meta">
-			<a class="post-link" href="{{ post.url | relative_url }}">
-				<h2 class="post-title">{{ post.title | escape }}</h2>
-			</a>
-			<div class="post-date"><i class="icon-calendar"></i>{{ post.date | date: date_format }}</div>
-		</div>
-		<div class="post">
-			{%- if site.show_excerpts -%}
-			{{ post.excerpt }}
-			{%- endif -%}
-		</div>
-	</li>
-	{%- endfor -%}
-</ul>
-{%- endif -%}
 
+{% for post in paginator.posts %}
+<div class="posts">
+  <h1>
+    <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+  </h1>
+  {% if post.image %}
+  <div class="thumbnail-container">
+    <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
+  </div>
+  {% endif %}
+  <p>
+    {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
+    <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+  </p>
+</div>
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
+  {% else %}
+    <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
+  {% endif %}
+
+  {% if paginator.previous_page %}
+    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
+  {% else %}
+    <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
+  {% endif %}
+</div>
