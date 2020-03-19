@@ -11,7 +11,7 @@
 #   sort_reverse: true
 
 # jekyll-paginate configuration
-paginate: 25
+paginate:            5
 
 # Build settings
 markdown:            kramdown
@@ -21,7 +21,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Chenyu Gao'
-description:	       'Hard to strive for success, but don't expect a certain success.'
+# description:	       'Hard to strive for success, but don't expect a certain success.'
 author:              'Chenyu Gao'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
