@@ -1,6 +1,7 @@
 ---
 layout: page
-image: web_author.jpg
+title: Home Page
+image: ![Aaron Swartz](https://github.com/SelinaFelton/SelinaFelton.github.io/blob/master/assets/img/web_author.jpg)
 ---
 
 
