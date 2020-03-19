@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Home Page
-image: ![Aaron Swartz](https://github.com/SelinaFelton/SelinaFelton.github.io/blob/master/assets/img/web_author.jpg)
+image: ![avatar](https://github.com/SelinaFelton/SelinaFelton.github.io/blob/master/assets/img/web_author.jpg)
 ---
 
 
