@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home Page
+title:    
 <!-- image: ![avatar](https://github.com/SelinaFelton/SelinaFelton.github.io/blob/master/assets/img/web_author.jpg) -->
 ---
 ![avatar](/assets/img/web_author.jpg)
