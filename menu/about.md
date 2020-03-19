@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Chenyu Gao
-image: author.png
+image: author.jpg
 ---
 
 
