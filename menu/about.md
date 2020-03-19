@@ -7,7 +7,7 @@ title:
 
 ## Research Interestes:
 
-Chenyu Gao's research interests are mainly in Computer Vision and Machine Learning. Her previous research project include crowd counting. She is currently working on the Vision and Language problems, specifically Text Visual Question Answering (TextVQA).
+Chenyu Gao's research interests are mainly in Computer Vision and Machine Learning. Her previous research projects include crowd counting. She is currently working on the Vision and Language problems, specifically Text Visual Question Answering (TextVQA).
 
 ## Education:
 
