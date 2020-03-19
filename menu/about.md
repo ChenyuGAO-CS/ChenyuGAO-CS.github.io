@@ -1,6 +1,6 @@
 ---
 layout: page
-image: author.jpg
+image: web_author.jpg
 ---
 
 
