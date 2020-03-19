@@ -1,18 +1,24 @@
 ---
 layout: page
-title: Welcome to Lagrange!
+title: Chenyu Gao
+image: author.png
 ---
 
-Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
 
-### Getting Started
+## Research Interestes:
 
-[Getting Started]({{ site.github.url }}{% post_url 2015-10-10-getting-started %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+Chenyu Gao's research interests are mainly in Computer Vision and Machine Learning. Her previous research project include crowd counting. She is currently working on the Vision and Language problems, specifically Text Visual Question Answering (TextVQA).
 
-### Example Content
+## Education:
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
+**MSe.**, Major in Software Engineering, Supervised by Dr. Peng Wang, College of Software, Northwestern Polytechnical University, Xi'an, China, 2019–2021.
+**B.A.**, Major in Software Engineering, College of Software, Northwestern Polytechnical University, Xi'an, China, 2015–2019.
 
-### Questions?
+## Publications:
+**Chenyu Gao**, Peng Wang, Ye Gao. MobileCount: An Efficient Encoder-Decoder Framework for Real-Time Crowd Counting[C]. Chinese Conference on Pattern Recognition and Computer Vision (PRCV). Springer, Cham, 2019: 582-595.
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
+## Awards:
+
+The ACM-ICPC Asia Regional Contest Urumqi Site Bronze Medal, 2017.
+The ACM-ICPC China Invitational Contest Bronze Medal, 2017. 
+The ACM-ICPC Asia Regional Contest Qingdao Site Bronze Medal, 2016.
