@@ -31,7 +31,7 @@ a:focus {
 }
 /*-- header_top --*/
 .sidebar{
-  background:#6ecadc;
+  background:#a60000;
   top: 0px;
   padding:2em 30px;
 }
@@ -100,12 +100,20 @@ margin-right: 20px;
 }  
 
 .details p{
-	color:#101010;
+	color:#ffffffc0;
 	font-size:0.9em;
 	margin:5px 0 2em 0;
 }
 .details p a{
-	color:#101010;
+	color:#ffffffc0;
+	font-size:0.9em;
+}
+.details span{
+	color:#ffffffc0;
+	font-size:0.9em;
+}
+.details span a{
+	color:#ffffffc0;
 	font-size:0.9em;
 }
 address h3{
@@ -113,7 +121,7 @@ address h3{
 }
 address span{
 	display:block;
-	color:#101010;
+	color:#fff;
 	font-size:0.9em;
 	line-height:1.5em;
 }
@@ -130,7 +138,7 @@ address span{
 .glyphicon-file:before,.glyphicon-print:before,.glyphicon-envelope:before,.glyphicon-picture:before{
     margin-right: 9px;
   font-size: 14px;
-  color: #6ecadc;
+  color: #a60000;
 }
 .details_header{
 	padding: 0em 1em 0 2em;
@@ -143,7 +151,7 @@ address span{
 	color:#333;
 }
 .details_header ul li a:hover{
-	color:#6ecadc;
+	color:#a60000;
 }
 .company {
 	margin:2em 0;
@@ -220,13 +228,13 @@ address span{
   display: inline-block;
 }
 h3.clr1{
-	background:#6ecadc;
+	background:#a60000;
 }
 h3.clr2{
-	background:#e9a820;
+	background:#c77430;
 }
 h3.clr3{
-	background:#3eb991;
+	background:#5f5f5f;;
 }
 .copywrite{
 	padding-left:2em;
@@ -240,7 +248,7 @@ h3.clr3{
 	color:#999;
 }
 .copywrite p a:hover{
-	color:#6ecadc;
+	color:#a60000;
 }
 .contact-grid form{
 	padding:2em 0 0 2em;
@@ -268,7 +276,7 @@ h3.clr3{
   -webkit-appearance: none;
 }
 .send input[type="submit"]:hover {
-  background: #6ecadc;
+  background: #a60000;
 }
 .contact-grid textarea {
   resize: none;
