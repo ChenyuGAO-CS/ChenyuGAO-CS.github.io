@@ -36,9 +36,10 @@ a:focus {
   padding:2em 30px;
 }
 .sidebar h1{
-	font-size:2.5em;
+	font-size:1.6em;
 	font-weight:700;
 	margin-bottom:1em;
+  text-align:center;
 	COLOR:rgb(100, 100, 100);
 	font-family: 'Varela Round', sans-serif;
 	
@@ -87,8 +88,9 @@ margin-right: 20px;
 }
 .sidebar img{
 	border:1px solid #b1b1b1;
-	padding:1em;
+	padding:0.3em;
 	width:100%;
+  border-radius: 50%;
 }
 .details{
 	margin-top:2em;
@@ -147,11 +149,11 @@ address span{
 	display:inline-block;
 }
 .details_header ul li a{
-	padding:0 1em;
+	padding:0 3em 0 0;
 	color:#333;
 }
 .details_header ul li a:hover{
-	color:#DCDCDC;
+	color:#1f92fe;
 }
 .company {
 	margin:2em 0;
